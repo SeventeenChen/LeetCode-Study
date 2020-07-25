@@ -9,7 +9,8 @@ private:
     // a pointer to indicate the start position
     int p_start;
 public:
-     MyQueue() { p_start = 0; }
+    // 构造函数？
+    MyQueue() { p_start = 0; }
     /** Insert an element into the queue. Return true if the operation is successful. */
     bool enQueue(int x) {
         data.push_back(x);
