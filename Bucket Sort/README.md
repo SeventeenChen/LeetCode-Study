@@ -1,3 +1,3 @@
-Bucket Sort C++ implementation
-Reference :
+# Bucket Sort C++ implementation
+# Reference :
 《啊哈！算法》
