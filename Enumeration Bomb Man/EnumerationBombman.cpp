@@ -1,4 +1,4 @@
-// Ã¶¾Ù·¨ --- Õ¨µ¯ÈË
+// æžšä¸¾æ³• --- ç‚¸å¼¹äºº
 
 # include <iostream>
 using namespace std;
@@ -15,13 +15,11 @@ int main()
 	cout << "\n\nRow = \40" << m << ",\40Column = \40" << n << endl;
 
 	cout << "Wall = '#'\40Enemy = 'G'\40Space = '.' " << endl;
+
 	for (i = 0; i < m; i++)
 	{
-		for (j = 0; j < n; j++)
-		{
-			cout << "Please input the char in a[" << i + 1 << "][" << j + 1 << "]=\40";
-			cin >> a[i][j];
-		}
+		cout << "Please input the string in  " << i + 1 << "\40row:\40\40" ;
+		cin >> a[i];
 	}
 
 	cout << "\nThe map is: " << endl;
@@ -94,6 +92,6 @@ int main()
 	}
 
 	cout << "Max enemy = " << map << endl;
-	cout << "The location of the BOMB is: " << p + 1 << "\40" << q + 1 << endl;
+	cout << "The location of the BOMB is: " << p << "\40" << q << endl;
 	return 0;
 }
